@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+header {
+    background-color: yellowgreen;
+    height: 50px;
+}
+main {
+    display: flex;
+    height: 200px;
+    width: auto;
+}
+nav {
+    background-color: black;
+    color: white;
+    width: 20%;
+}
+aside {
+    background-color: gray;
+    color: white;
+    width: 20%;
+}
+article {
+    background-color: lightgray;
+    width: 60%;
+}
+footer {
+    background-color: yellowgreen;
+    height: 50px;
+}
+.align-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav{
+    background-color: orange;
+    width: 10%;
+}
+.container {
+    width: 80%;
+}
